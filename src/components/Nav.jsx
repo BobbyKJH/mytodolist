@@ -10,19 +10,19 @@ function Nav({ home }) {
         </Link>
 
         <Link to="/today" className={styles.link}>
-          <h2 className={styles.content}>TODAY TODO LIST</h2>
+          <h2 className={styles.content}>TODAY TODO</h2>
         </Link>
 
         <Link to="/week" className={styles.link}>
-          <h2 className={styles.content}>WEEK TODO LIST</h2>
+          <h2 className={styles.content}>WEEK TODO</h2>
         </Link>
 
         <Link to="/month" className={styles.link}>
-          <h2 className={styles.content}>MONTH TODO LIST</h2>
+          <h2 className={styles.content}>MONTH TODO</h2>
         </Link>
 
         <Link to="/year" className={styles.link}>
-          <h2 className={styles.content}>YEAR TODO LIST</h2>
+          <h2 className={styles.content}>YEAR TODO</h2>
         </Link>
       </div>
     </div>

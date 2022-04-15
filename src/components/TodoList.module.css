@@ -1,0 +1,25 @@
+/* 전체 박스 */
+.main {
+  border: 1px solid black;
+  margin: auto;
+  width: 90%;
+  padding: 10px;
+}
+/* todo form */
+.todo {
+  display: block;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid black;
+  width: 50%;
+  height: 400px;
+}
+/* todo 입력창 */
+.input {
+  display: block;
+  margin: 10px auto;
+  width: 90%;
+}
+.list {
+  text-decoration: none;
+}

@@ -1,0 +1,7 @@
+/* todo 전체 박스 */
+.todo {
+  display: block;
+  margin: 0 auto;
+  margin-top: 110px;
+  text-align: center;
+}
