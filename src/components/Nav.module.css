@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* 링크 텍스트 */
+.link {
+  text-decoration: none;
+  display: block;
+  margin: auto;
+}
+/* 전체박스 */
+.nav {
+  display: flex;
+  position: fixed;
+  border: 5px solid gray;
+  border-left: 0;
+  border-right: 0;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+/* Home */
+.title {
+  font-size: xx-large;
+  color: black;
+}
+/* Todo List */
+.content {
+  display: block;
+  font-size: large;
+  margin: auto;
+  color: rgb(0, 0, 0);
+}
+.content:hover {
+  color: rgb(0, 0, 0, 0.5);
+}
