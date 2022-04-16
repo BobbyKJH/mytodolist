@@ -30,8 +30,10 @@ function TodoList({ name, todo }) {
           value={toDo}
           className={styles.input}
         />
-        <button onClick={onChangeSubmit}>추가하기</button>
-        <p>{toDo}</p>
+        <button onClick={onChangeSubmit} className={styles.btn}>
+          추가하기
+        </button>
+
         <hr />
         {toDos.map((todo) => (
           <ul className={styles.list}>{todo}</ul>

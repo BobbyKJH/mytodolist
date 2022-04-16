@@ -24,13 +24,13 @@ body {
 }
 /* Home */
 .title {
-  font-size: 150%;
+  font-size: 170%;
   color: black;
   transition: 1s;
 }
 .title:hover {
   font-size: 200%;
-  color: aqua;
+  color: rgb(0, 0, 0, 0.5);
 }
 /* Todo List */
 .content {
