@@ -34,7 +34,7 @@ function TodoList({ name, todo }) {
         <p>{toDo}</p>
         <hr />
         {toDos.map((todo) => (
-          <li className={styles.list}>{todo}</li>
+          <ul className={styles.list}>{todo}</ul>
         ))}
       </form>
     </div>
