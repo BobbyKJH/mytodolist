@@ -15,8 +15,11 @@ function TodoList({ name, todo, list }) {
       return;
     }
     setToDos((current) => {
-      alert(list);
-      return [...current, toDo];
+      if (window.confirm(list)) {
+        return [...current, toDo];
+      } else {
+        return [...current];
+      }
     });
     setToDo("");
   };
