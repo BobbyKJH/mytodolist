@@ -23,7 +23,11 @@ function Todo({ todos }) {
       >
         {todos}
       </button>
-      <button onClick={disable}>dhk</button>
+      <button onClick={disable} className={styles.btn}>
+        완료
+      </button>
+      <button className={styles.btn}>삭제</button>
+      <hr />
     </ul>
   );
 }

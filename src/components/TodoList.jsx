@@ -39,10 +39,6 @@ function TodoList({ name, todo, list }) {
         <hr />
         {toDos.map((todos) => (
           <Todo todos={todos} />
-          // <ul className={styles.list}>
-          //   <p>{todo}</p>
-          //   <button>완료</button>
-          // </ul>
         ))}
       </form>
     </div>

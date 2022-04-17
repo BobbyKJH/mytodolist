@@ -7,8 +7,16 @@
 }
 /* Todo Content */
 .content {
-  width: 100%;
+  width: 90%;
   margin: 1vw 0;
-  font-size: large;
-  text-decoration: none;
+  font-size: medium;
+  word-break: break-all;
+}
+/* 완료 및 삭제 버튼 */
+.btn {
+  font-size: x-small;
+  margin: 0 10px;
+  width: 25%;
+  border: 1px solid black;
+  border-radius: 10px;
 }

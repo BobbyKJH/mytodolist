@@ -12,13 +12,14 @@
   padding: 10px;
   border: 1px solid black;
   width: 50%;
-  height: 400px;
+  min-height: 650px;
 }
 
 /* todo 입력창 */
 .input {
   display: block;
   margin: 10px auto;
+  padding: 5px;
   width: 90%;
   height: 10%;
   text-align: center;
