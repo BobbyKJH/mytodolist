@@ -2,14 +2,25 @@ import { useState } from "react";
 import styles from "./Todo.module.css";
 
 function Todo({ todos }) {
-  const [complete, setComplete] = useState(false);
+  // Check List useState
+  const [complete, setComplete] = useState("none");
 
+  // Check List function
   const disable = () => {
-    setComplete(!complete);
+    if (complete === "none") {
+      setComplete("line-through");
+    } else {
+      setComplete("none");
+    }
   };
+
   return (
     <ul className={styles.list}>
-      <button className={styles.content} disabled={complete} onClick={disable}>
+      <button
+        className={styles.content}
+        onClick={disable}
+        style={{ textDecoration: complete }}
+      >
         {todos}
       </button>
       <button onClick={disable}>dhk</button>
