@@ -8,7 +8,11 @@ function TodayTodo() {
       <Nav />
 
       <div className={styles.todo}>
-        <TodoList name={"TODAY TODO"} todo={"TODAY TODO"} />
+        <TodoList
+          name={"TODAY TODO"}
+          todo={"TODAY TODO"}
+          list={"Add this Today's List"}
+        />
       </div>
     </>
   );

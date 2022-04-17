@@ -7,7 +7,11 @@ function YearTodo() {
       <Nav />
 
       <div className={styles.todo}>
-        <TodoList name={"YEAR TODO"} todo={"YEAR TODO"} />
+        <TodoList
+          name={"YEAR TODO"}
+          todo={"YEAR TODO"}
+          list={"Add this Year's List"}
+        />
       </div>
     </>
   );

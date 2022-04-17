@@ -7,7 +7,11 @@ function WeekTodo() {
       <Nav />
 
       <div className={styles.todo}>
-        <TodoList name={"WEEK TODO"} todo={"WEEK TODO"} />
+        <TodoList
+          name={"WEEK TODO"}
+          todo={"WEEK TODO"}
+          list={"Add this Week's List"}
+        />
       </div>
     </>
   );

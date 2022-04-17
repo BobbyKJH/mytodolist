@@ -1,7 +1,8 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import Todo from "./Todo";
 import styles from "./TodoList.module.css";
 
-function TodoList({ name, todo }) {
+function TodoList({ name, todo, list }) {
   const [toDo, setToDo] = useState("");
   const [toDos, setToDos] = useState([]);
 
@@ -14,6 +15,7 @@ function TodoList({ name, todo }) {
       return;
     }
     setToDos((current) => {
+      alert(list);
       return [...current, toDo];
     });
     setToDo("");
@@ -35,8 +37,12 @@ function TodoList({ name, todo }) {
         </button>
 
         <hr />
-        {toDos.map((todo) => (
-          <ul className={styles.list}>{todo}</ul>
+        {toDos.map((todos) => (
+          <Todo todos={todos} />
+          // <ul className={styles.list}>
+          //   <p>{todo}</p>
+          //   <button>완료</button>
+          // </ul>
         ))}
       </form>
     </div>
