@@ -2,12 +2,16 @@ body {
   margin: 0;
   padding: 0;
 }
-
+hr {
+  margin: 0;
+}
 /* 링크 텍스트 */
 .link {
   text-decoration: none;
   display: block;
   margin: auto;
+  padding: auto;
+  width: 20%;
 }
 /* 전체박스 */
 .nav {
@@ -39,6 +43,7 @@ body {
   margin: auto;
   color: rgb(0, 0, 0);
   transition: 1s;
+  overflow: auto;
 }
 .content:hover {
   font-size: 150%;
