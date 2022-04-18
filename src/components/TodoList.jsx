@@ -15,7 +15,7 @@ function TodoList({ name, todo, list }) {
       return;
     }
     setToDos((current) => {
-      if (window.confirm(list)) {
+      if (window.confirm(toDo + list)) {
         return [...current, toDo];
       } else {
         return [...current];
