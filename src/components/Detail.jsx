@@ -18,14 +18,15 @@ function Detail() {
   };
   return (
     <div className={styles.box}>
-      <input
-        className={styles.input}
-        type="text"
-        onChange={InputList}
-        value={input}
-      />
-
-      <button onClick={ListFile}>추가하기</button>
+      <form onSubmit={ListFile}>
+        <input
+          className={styles.input}
+          type="text"
+          onChange={InputList}
+          value={input}
+        />
+        <button onClick={ListFile}>추가하기</button>
+      </form>
 
       <p>
         {list.map((list) => (
