@@ -1,3 +1,4 @@
+import Explanation from "../components/Explanation";
 import Nav from "../components/Nav";
 import styles from "./Home.module.css";
 

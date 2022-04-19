@@ -12,7 +12,7 @@ function TodoList({ name, todo, list }) {
   const onChangeSubmit = (e) => {
     e.preventDefault();
     if (toDo === "") {
-      return;
+      return alert("You Add Todo List");
     }
     setToDos((current) => {
       if (window.confirm(toDo + list)) {
